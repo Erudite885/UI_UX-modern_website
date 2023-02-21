@@ -158,6 +158,18 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.input__border {
+  border: 2px solid #031b34;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.input__button-border {
+  border: none;
+  outline:none;
+  /* padding: 0 1rem; */
+  border-radius: 0px 5px 5px 0px;
+}
+
 .section__padding {
   padding: 4rem 6rem;
 }
