@@ -27,12 +27,12 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="flex justify-between items-center px-8 py-24">
+    <div className="flex justify-between items-center px-8 pt-16 sm:py-24">
       <div className="flex-1 flex justify-start items-center">
         <div className="mr-8 ">
           <img src={logo} alt="logo" className="w-[63px] h-[17px] " />
         </div>
-        <div className="hidden sm:flex flex-row ">
+        <div className="hidden lg:flex flex-row ">
           <Menu />
         </div>
       </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
           Sign up
         </button>
       </div>
-      <div className="gpt3__navbar-menu sm:hidden ml-4 relative cursor-pointer">
+      <div className="gpt3__navbar-menu lg:hidden ml-4 relative cursor-pointer">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
