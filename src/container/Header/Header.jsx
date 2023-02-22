@@ -9,7 +9,7 @@ const Header = () => {
       className="gpt3__header flex flex-col lg:flex-row section__padding"
       id="home"
     >
-      <div className="gpt3__header-content flex-1 flex justify-center items-start flex-col mr-20">
+      <div className="gpt3__header-content flex-1 flex justify-center items-start flex-col mb-10 lg:mb-0 lg:mr-20">
         <h1 className="gradient__text font-poppins font-bold text-[36px] ss:text-[48px] sm:text-[62px] ">
           Let's Build Something amazing with GPT-3 OpenAI
         </h1>
