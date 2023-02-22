@@ -164,6 +164,10 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.gradient__cta  {
+  background: var(--gradient-bar)
+}
+
 .input__border {
   border: 2px solid #031b34;
   border-radius: 5px 0px 0px 5px;
