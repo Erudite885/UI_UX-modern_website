@@ -1,5 +1,5 @@
 import React from "react";
-import { face, people } from "../../assets";
+import { ai_face, face, people } from "../../assets";
 
 // import "./header.css";
 
@@ -42,7 +42,7 @@ const Header = () => {
         </div>
       </div>
       <div className="gpt__header-img flex-1 flex justify-center items-center ">
-        <img src={people} alt="" className="w-full h-full  " />
+        <img src={ai_face} alt="" className="w-full h-full  " />
       </div>
     </div>
   );
