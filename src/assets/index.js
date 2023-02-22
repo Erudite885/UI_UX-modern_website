@@ -6,10 +6,12 @@ import airbnb from "./airbnb.png";
 import binance from "./binance.png";
 import dropbox from "./dropbox.png";
 import google from "./google.svg";
+import ai_face from "./ai_face.png"
 
 
 export { 
     logo, 
+    ai_face,
     face, 
     people,
     atlas, 
