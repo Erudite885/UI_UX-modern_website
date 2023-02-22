@@ -33,7 +33,7 @@ const Features = () => {
           Request Early Access to get Started
         </p>
       </div>
-      <div className="gpt3_features-container flex-1 flex flex-col sm:flex-row justify-start ">
+      <div className="gpt3_features-container flex-1 flex flex-col md:flex-row justify-start ">
         {featuresData.map((item, i) => (
           <Feature title={item.title} text={item.text} key={item.title + i} />
         ))}
