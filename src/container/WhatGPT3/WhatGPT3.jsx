@@ -9,13 +9,18 @@ const WhatGPT3 = () => {
       id="wgpt3"
     >
       <div className="gpt3__whatgpt3-feature flex">
-        <Feature
-          title="What is GPT-3"
-          text=" Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur adip Lorem ipsum dolor sit
-          amet, consectetur adip.Lorem ipsum dolor sit amet, consectetur adip Lorem ipsum dolor sit
-          amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip Lorem ipsum dolor sit
-          amet, consectetur adip. "
-        />
+        <div className="gpt3__features-container__feature-title flex flex-col md:flex-row">
+          <h1 className="font-poppins font-bold text-[24px] text-[#fff] w-full mb-4 md:mb-0 ">
+            What is GPT-3
+          </h1>
+          <p className="font-poppins font-medium text-[14px] text-text ">
+            Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur adip Lorem
+            ipsum dolor sit amet, consectetur adip.Lorem ipsum dolor sit amet,
+            consectetur adip Lorem ipsum dolor sit amet, consectetur adip. Lorem
+            ipsum dolor sit amet, consectetur adip Lorem ipsum dolor sit amet,
+            consectetur adip.
+          </p>
+        </div>
       </div>
       <div className="gpt3__whatgpt3-heading flex flex-col sm:flex-row justify-between md:items-start items-center mx-0 mt-8 mb-4 md:mb-0 ">
         <h1 className="gradient__text font-poppins font-bold text-[28px] md:text-[34px] max-w-[510px] lg:max-w-full lg:mb-8 ">
